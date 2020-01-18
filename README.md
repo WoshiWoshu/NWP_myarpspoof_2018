@@ -1,7 +1,9 @@
 # NWP_myarpspoof_2018
-Second year network project in C++ in which the goal is to create a program that spoofs ARP packets. The program first broadcast an ARP packet in order to retrieve the corresponding MAC address of the IPv4 address which belongs to the target. Then, the program send spoofed ARP reply packets every 1 second (using that MAC address). Those spoofed ARP packets basically lie to the victim by saying that MAC address resolves to an IPv4 provided as an argument. The behaviour and result of the program is almost identical to "arpspoof tool" that can be found in the Kali Linux Distribution.
+Second year network project in C++ in which the goal is to create a program that spoofs ARP packets. The program first broadcast an ARP packet in order to retrieve the corresponding MAC address of the IPv4 address which belongs to the target. Then, the program send spoofed ARP reply packets every 1 second (using that MAC address). Those spoofed ARP packets basically lie to the target by saying that MAC address resolves to an IPv4 provided as an argument. The behaviour and result of the program is almost identical to "arpspoof tool" that can be found in the Kali Linux Distribution.
 
-USAGE : ./myARPspoof [source_ip] [dest_ip] [iface]
+USAGE :
+
+    ./myARPspoof [source_ip] [dest_ip] [iface]
 
 EXEMPLE : 
 
