@@ -13,7 +13,7 @@ EXEMPLE :
 
     > sudo ./myARPspoof 192.168.1.1 192.168.1.128 wlo1
 
-    output : Found target’s MAC address: ‘C8:CD:72:65:34:21’
+    Output : Found target’s MAC address: ‘C8:CD:72:65:34:21’
              Spoofed packet sent to ‘192.168.1.128’
              Spoofed packet sent to ‘192.168.1.128’
              Spoofed packet sent to ‘192.168.1.128’
