@@ -7,14 +7,14 @@ USAGE :
 
 EXEMPLE : 
 
-> ./myARPspoof 42.42.21.21 192.168.1.126 wlo1 ––printBroadcast
+    > ./myARPspoof 42.42.21.21 192.168.1.126 wlo1 ––printBroadcast
 
-> ff ff ff ff ff ff aa bb ed 14 f7 ff 08 06 00 01 08 00 06 04 00 01 aa bb ed 14 f7 ff 2a f7 7f a2 f8 f1 f5 2f b4 ff c0 a8 01 24
+    Output: ff ff ff ff ff ff aa bb ed 14 f7 ff 08 06 00 01 08 00 06 04 00 01 aa bb ed 14 f7 ff 2a f7 7f a2 f8 f1 f5 2f b4 ff               c0 a8 01 24
 
-> sudo ./myARPspoof 192.168.1.1 192.168.1.128 wlo1
+    > sudo ./myARPspoof 192.168.1.1 192.168.1.128 wlo1
 
-> Found target’s MAC address: ‘C8:CD:72:65:34:21’
-  Spoofed packet sent to ‘192.168.1.128’
-  Spoofed packet sent to ‘192.168.1.128’
-  Spoofed packet sent to ‘192.168.1.128’
-  ...
+    output : Found target’s MAC address: ‘C8:CD:72:65:34:21’
+             Spoofed packet sent to ‘192.168.1.128’
+             Spoofed packet sent to ‘192.168.1.128’
+             Spoofed packet sent to ‘192.168.1.128’
+             ...
